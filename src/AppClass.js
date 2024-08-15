@@ -65,7 +65,7 @@ export default class AppClass extends Component {
   render() {
     return (
       <div className="wrap">
-        <h1 className="title">Rock Paper Scissorc Game</h1>
+        <h1 className="title">Rock Paper Scissors Game</h1>
         <div className="box_wrap"> 
           <BoxClass title="You" item={this.state.userSelect} result={this.state.result}/>
           <BoxClass title="Computer" item={this.state.computerSelect} result={this.state.result}/>
